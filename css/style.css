@@ -1,6 +1,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+
 }
 
 .wrapper {
@@ -14,6 +16,7 @@ body{
 
 .container {
     max-width: 1460px;
+    height: auto;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -31,7 +34,7 @@ body{
 /*=======================================================*/
 
 .header{
-    z-index: 100;
+    z-index: 25;
     position: relative;
     width: 100%;
 }
@@ -109,6 +112,7 @@ a.header-top__search{
     position: relative;
     margin-bottom: 30px;
     padding-left: 100px;
+    padding-right: 100px;
     font-weight: 700;
     font-size: 18px;
     line-height: 138.8%;
@@ -225,7 +229,8 @@ a.header-top__search{
 /*=================================================*/
 
 .nusa{
-    background: #000;
+    /*background: #000;*/
+    padding-bottom: 250px;
 }
 
 .nusa__images{
@@ -255,14 +260,14 @@ a.header-top__search{
     background: #FFC178;
 }
 
-.nusa__title{
+.title{
     font-weight: 900;
     font-size: 64px;
     line-height: 136%;
     color: #FFFFFF;
 }
 
-.nusa__text{
+.text{
     margin-top: 27px;
     margin-bottom: 27px;
     font-weight: 600;
@@ -288,6 +293,59 @@ a.header-top__search{
 }
 
 
+/*Bromo*/
+/*======================================================*/
+
+.bromo{
+    position: relative;
+    background-image: url("../images/bromo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 985px;
+}
+
+.bromo__items{
+    transform: translate(50%, 0);
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    right: 50%;
+    max-width: 1163px;
+    min-height: 428px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bromo__btn{
+    display: flex;
+    position: absolute;
+    left: 44%;
+}
+
+.bromo__btn button{
+    background: none;
+    margin: 0 auto;
+}
+
+.bromo__subtitle::after{
+    content:"";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 0;
+    top: 10px;
+    background: #FFC178;
+}
+
+.bromo__subtitle::before{
+    content:"";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    right: 0;
+    top: 10px;
+    background: #FFC178;
+}
 
 
 
