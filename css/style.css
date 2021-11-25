@@ -52,11 +52,16 @@ body{
 
 }
 
-.header-top__logo{
+.header-top__logo a{
     font-weight: 700;
     font-size: 24px;
     line-height: 137.5%;
     color: #fff;
+    transition: 0.3s ease 0.1s;
+}
+
+.header-top__logo a:hover{
+    color: #FFC178;
 }
 
 .header-top__items{
@@ -69,6 +74,11 @@ body{
     font-size: 18px;
     line-height: 138.8%;
     color: #fff;
+    transition: 0.3s ease 0.1s;
+}
+
+.header-top__link:hover{
+    color: #FBD784;
 }
 
 .header-top__item{
@@ -85,7 +95,12 @@ a.header-top__search{
     font-size: 17px;
     line-height: 135%;
     color: rgba(255,255,255,.8);
+    transition: 0.3s ease 0.1s;
 
+}
+
+a.header-top__search:hover{
+    color: #FBD784;
 }
 
 .header__images img{
@@ -164,6 +179,11 @@ a.header-top__search{
     font-size: 18px;
     line-height: 138.8%;
     color: #FFFFFF;
+    transition: 0.3s ease 0.1s;
+}
+
+.header__scroll-down:hover{
+    color: #FBD784;
 }
 
 .header__scroll-arrow{
@@ -229,7 +249,6 @@ a.header-top__search{
 /*=================================================*/
 
 .nusa{
-    /*background: #000;*/
     padding-bottom: 250px;
 }
 
@@ -347,10 +366,86 @@ a.header-top__search{
     background: #FFC178;
 }
 
+.bromo__arrow{
+    position: absolute;
+    top: 50%;
+    right: 13.5%;
+}
 
+/*Culture*/
+/*=======================================================*/
 
+.culture{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
 
+.culture__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.culture__content{
+    margin-right: 240px;
+    text-align: left;
+    max-width: 632px;
+}
+
+.culture__subtitle::after{
+    content:"";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 0;
+    top: 10px;
+    background: #FFC178;
+}
+
+/*Footer*/
+/*=======================================================*/
+
+/*footer__explore*/
+/*-------------------------*/
+
+.explore__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore__logo{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 135%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.explore__item{
+    display: flex;
+    align-items: center;
+}
+
+.explore__text{
+    margin-right: 55px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 132%;
+    color: #FFFFFF;
+}
+
+.explore__button button{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    background: #FFA343;
+    border-radius: 8px;
+    padding: 25px 70px;
+
+}
+/*-----------------------------*/
 
 
 
