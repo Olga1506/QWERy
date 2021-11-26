@@ -408,6 +408,12 @@ a.header-top__search:hover{
 /*footer__explore*/
 /*-------------------------*/
 
+.footer__explore{
+    padding-bottom: 50px;
+    border-bottom: 2px solid #979797;
+}
+
+
 .explore__items{
     display: flex;
     justify-content: space-between;
@@ -447,11 +453,86 @@ a.header-top__search:hover{
 }
 /*-----------------------------*/
 
+/*footer__columns*/
+/*--------------------------------*/
 
+.footer__columns{
+    padding: 50px 100px 130px 0;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    border-bottom:  1px solid #979797;
+}
 
+.contact__title{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 136%;
+    color: #FFFFFF;
+}
 
+.contact__email{
+    padding: 10px 15px;
+    margin-right: 102px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    opacity: 0.5;
+    background: #000;
+}
 
+.email__btn{
+    background: #FFA343;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+}
 
+.services__item a,
+.about__item a,
+.help__item a{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 2;
+    color: #FFFFFF;
+}
+
+.services__item a:hover,
+.about__item a:hover,
+.help__item a:hover{
+    color: #FBD784;
+}
+/*----------------------------------*/
+
+/*footer__social*/
+/*--------------------------------------------*/
+
+.footer__social{
+    margin: 100px 40px 180px;
+}
+
+.social__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__terms,
+.social__policy{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 133%;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.social__icons a{
+    margin-right: 50px;
+}
+
+/*----------------------------------------------*/
 
 
 
